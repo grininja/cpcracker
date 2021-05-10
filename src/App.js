@@ -79,9 +79,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <h1 className="app-heading text-center mt-5">
-          CP Cracker BY DIY Club{" "}
-        </h1>
         {questionData.length === 0 ? (
           // load spinner until data is fetched from DB
           <div className="d-flex justify-content-center">
